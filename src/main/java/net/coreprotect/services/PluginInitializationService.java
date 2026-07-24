@@ -43,6 +43,8 @@ public class PluginInitializationService {
      * @return true if initialization was successful, false otherwise
      */
     public static boolean initializePlugin(CoreProtect plugin) {
+        plugin.getDataFolder().mkdir();
+        return true;
         // Load language phrases
         Language.loadPhrases();
 
