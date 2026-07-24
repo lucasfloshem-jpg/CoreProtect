@@ -183,6 +183,8 @@ public class PluginInitializationService {
         }
         catch (Exception e) {
             // Failed to connect to bStats server or something else went wrong
-        }
+       }
     }
+    */
 }
+
