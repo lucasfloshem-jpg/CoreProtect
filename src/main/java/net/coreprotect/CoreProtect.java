@@ -47,10 +47,7 @@ public final class CoreProtect extends JavaPlugin {
         boolean initialized = PluginInitializationService.initializePlugin(this);
 
         // Disable plugin if initialization failed
-        if (!initialized) {
-            Chat.console(Phrase.build(Phrase.ENABLE_FAILED, ConfigHandler.EDITION_NAME));
-            getServer().getPluginManager().disablePlugin(this);
-        }
+    
     }
 
     @Override
