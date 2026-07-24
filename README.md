@@ -198,6 +198,7 @@ Thanks for your support!
 [![bStats Graph Data](https://bstats.org/signatures/bukkit/CoreProtect.svg)](https://bstats.org/plugin/bukkit/CoreProtect)
 
 ## Contributing
+.
 
 CoreProtect is an open source project, and gladly accepts community contributions.
 
